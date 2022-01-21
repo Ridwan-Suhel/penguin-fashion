@@ -1,0 +1,175 @@
+a {
+  text-decoration: none;
+}
+.logo {
+  width: 250px;
+}
+.header {
+  padding: 20px 0px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  transition: all 0.3s linear;
+  z-index: 999;
+  background: #fffbf0;
+}
+.header.sticky {
+  padding: 5px 0px;
+  background: #fffbf0;
+  border-bottom: 1px solid #e6e1d57c;
+}
+.header ul li {
+  margin-left: 20px;
+}
+
+.header ul li a {
+  color: #3c3c3c;
+  font-weight: 500;
+}
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+/* ------------ close icon --------- */
+/* button[aria-expanded="true"] {
+  background-image: url(./images/cancel.png);
+  background-size: 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: 99999;
+  filter: grayscale(10);
+  filter: invert(60%);
+} */
+/* button.collapsed[aria-expanded="true"] {
+  background-image: url(./images/cancel.png);
+  background-size: 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: 99999;
+  filter: grayscale(10);
+  filter: invert(60%);
+} */
+/* button[aria-expanded="true"] .navbar-toggler-icon {
+  opacity: 1;
+} */
+.navbar-light button.collapsed .navbar-toggler-icon {
+  background-image: url(./images/cancel.png);
+  width: 1.5em;
+  background-size: 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: 99999;
+  filter: grayscale(10);
+  filter: invert(60%);
+}
+/* hero area start  */
+.hero-area {
+  background: #fffbf0;
+  padding: 90px 0px;
+}
+.hero-area .title {
+  font-size: 3.2rem;
+  color: #fabe4c;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.pf-btn {
+  background: #a4bc46;
+  font-weight: 500;
+  border-radius: 7px;
+  transition: all 0.3s ease-in-out;
+  padding: 10px 25px;
+}
+.pf-btn:hover {
+  background: #96ad3a;
+}
+.pf-btn i {
+  transition: all 0.3s linear;
+}
+.pf-btn:hover i {
+  transform: scale(1.07);
+  padding-right: 5px;
+}
+.wMan-jacket .card,
+.man-jacket .card {
+  background: #fff;
+  border: none;
+  box-shadow: 0px 3px 5px 3px #dddddd42;
+  border-radius: 15px;
+}
+.card-img-wrapper {
+  background: #f1f1f1;
+  border-radius: 15px;
+  margin: 15px;
+}
+.card-img-wrapper img {
+  padding: 15px 10px 15px 20px;
+  object-fit: cover;
+}
+.wMan-jacket .card-footer,
+.man-jacket .card-footer {
+  border: none;
+  background: #fff;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding-bottom: 20px;
+}
+.p-price {
+  color: #fabe4c;
+  font-weight: 700;
+  font-size: 2em;
+}
+.card-img-wrapper {
+  overflow: hidden;
+}
+.card img {
+  transition: all 0.5s ease-in-out;
+}
+.card:hover img {
+  transform: scale(1.05);
+}
+.feature-box {
+  background: #fff;
+  box-shadow: 0px 3px 5px 3px #dddddd42;
+  border-radius: 10px;
+  padding: 15px;
+}
+.feature-box .icon {
+}
+.feature-box .icon img {
+  width: 70px;
+}
+.feature-box h4 {
+  font-size: 1.4em;
+}
+.feature-box .box-content {
+  padding-left: 15px;
+}
+@media (max-width: 992px) {
+  .hero-img {
+    margin-left: 0 !important;
+  }
+}
+@media (max-width: 767px) {
+  .feature-vector {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 576px) {
+  .hero-area .title {
+    margin-top: 70px;
+    font-size: 2.2rem;
+  }
+  .hero-img {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 350px) {
+  .logo {
+    width: 200px;
+  }
+}
